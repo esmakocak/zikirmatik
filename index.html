@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Zikirmatik</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+    <link rel="icon" href="images/ö.png" type="image/x-icon">
+    <script src='main.js'></script>
+    <style>
+        .myDiv {
+            
+            margin: 100px;
+            width: 720px;
+            border: 10px outset rgb(244, 199, 216);
+            background-image: url("images/backpic.jpeg");
+            background-size: 720px 411px;
+            height: 411px;
+            text-align: center;
+            margin: 120px auto; 
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="myDiv">
+        <h1>Zikir çek: </h1>
+        <h2 id="count-el">0</h2>
+        <button class="button" onclick="increment()">BAS</button>
+        <button  class="button" id="save-btn" onclick="save()">KAYDET</button>
+        <p id="save-el">Daha önce kaydedilenler: </p>
+        
+    </div>
+    <script src="index.js"></script>
+    
+</body>
+</html>
+
